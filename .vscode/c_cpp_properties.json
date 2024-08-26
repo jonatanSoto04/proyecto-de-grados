@@ -1,0 +1,19 @@
+{
+  "configurations": [
+      {
+          "name": "windows-gcc-x64",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "C:/Program Files/Java/jdk-22/include",   // Ruta a los encabezados del JDK
+              "C:/Program Files/Java/jdk-22/include/win32" // Ruta a los encabezados específicos de Windows del JDK
+ // Ruta a los encabezados de Windows SDK
+          ],
+          "compilerPath": "C:/mingw64/bin/g++.exe",
+          "cStandard": "c11",  // Puedes ajustar la versión de C si es necesario
+          "cppStandard": "c++17",  // Puedes ajustar la versión de C++ si es necesario
+          "intelliSenseMode": "windows-gcc-x64",
+          "compilerArgs": []
+      }
+  ],
+  "version": 4
+}
